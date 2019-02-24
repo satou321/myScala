@@ -24,6 +24,6 @@ def greeting(name: String)(implicit greet: String):Unit = {
 //greeting("taro")("good morning!")
 
 // 暗黙的の引数
-implicit val a:String="hello2!"
+implicit val a:String="hello! "
 
 greeting("taro")
