@@ -18,3 +18,4 @@ project/plugins/project/
 build.sbt
 src/test/
 !/src/main/
+src/main/scala/

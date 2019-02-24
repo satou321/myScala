@@ -1,4 +1,5 @@
-//抽象型
+@startuml
+
 
 abstract class Base {
   type X //抽象型
@@ -17,6 +18,6 @@ class E1 extends Base {
   def show(a: X): Unit = a.exec
 }
 
-val x = new E1
-x.show(new B)
 
+
+@enduml
